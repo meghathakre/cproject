@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="index.css">
+    <title>Email Template</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="email-container">
+        <h1>Your Funding Is Within Reach!</h1>
+        <p>
+            <span id="user-field-1">%user_field_1% </span>, Don't Keep Our Lenders Waiting!
+        </p>
+        <p>We have received positive reviews regarding your funding request from our partners. Shall we continue to the next step?</p>
+        
+        <table>
+            <tr>
+                <td><strong>Name :</strong></td>
+                <td><span id="user-field-1-name">%user_field_1% %user_field_2%</span> <span id="user-field-2-name">Doe</span></td>
+            </tr>
+            <tr>
+                <td><strong>Email :</strong></td>
+                <td id="email-field">%email%</td>
+            </tr>
+        </table>
+
+        <button id="proceed-btn">Proceed Further</button>
+
+        <div class="footer">
+            <p>This notification email has been sent to you at </p>
+           <center><p>%email%</p></center> 
+            <p>If you no longer wish to receive emails from us, kindly opt-out <a href="#">here</a> 
+           or write to: 1309 E 3rd Ave Suite 202 Durango,<br>
+                     CO 81301</p>
+        </div>
+    </div>
+
+   
+
+</body>
+</html>

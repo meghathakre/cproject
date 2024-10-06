@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background-color: white;
+      border: 1px solid #6fe87b;
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      width: 600px;
+      height: 300px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .message {
+      width: 60%;
+    }
+    .message h2 {
+      color: green;
+    }
+    .info {
+      background-color: #a69f9f;
+      padding: 15px;
+      border-radius: 10px;
+      width: 55%;
+      margin-left: 350px;
+      margin-top: -200px;
+    }
+    .info div {
+      margin-bottom: 10px;
+     padding: auto;
+   
+    }
+    .info div span {
+      display: block;
+      font-weight: bold;
+    }
+    .btn {
+      text-align: center;
+      margin-top: 50px;
+      margin-left: 140px;
+    }
+    .btn button {
+      background-color: green;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .btn button:hover {
+      background-color: darkgreen;
+    }
+    .info a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .info a:hover {
+      text-align: center;
+      decoration: underline;
+    }
+    span{
+        color: green;
+    }
+    .info  a #amountInfo {
+        color: green;
+    }
+
+.info input {
+text-align: center;
+}
+.info p{
+  text-align: center;
+}
+.info a{
+    color: #2a7431;
+    margin-left: 40px;
+}
+    </style>
+</head>
+<body>
+  
+    <div class="container">
+        <div class="message">
+          <h2>Hello <span> {{first_name}}</span> </h2>
+          <p>The loan papers are set up and ready to be electronically signed.</p>
+          <p>Examine your data and click the following link to submit a digital loan application.</p>
+          <div class="btn">
+            <button>DISCOVER MORE</button>
+          </div>
+<div class="info">
+      <div>
+     <input type="text" placeholder="Name"  style="font-weight:bolder" >
+        <p>{{first_name}} {{last_name}}</p>
+       
+      </div>
+      <div>
+        <input type="text" placeholder="Email"  style="font-weight:bolder ">
+        <p>{{email}}</p>
+        
+      </div>
+      <div>
+        <input type="text" placeholder="Amount"  style="font-weight:bolder ">
+        <a href="#">View Amount</a>
+      </div>
+      
+    </div>
+  </div>
+ 
+</div>
+
+
+    
+
+</body>
+</html>

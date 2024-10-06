@@ -1,0 +1,60 @@
+.header h3{
+    width: 500px;
+    height: 30px;
+    background-color: rgb(57, 84, 120);
+    color: white;
+    text-align: center;
+}
+.container{
+ box-shadow: 0px 0px 10px 10px silver;
+ border: 2px solid rgb(6, 6, 26);
+ width: 800px;
+ height: 500px;
+}
+.features {
+    display: flex;
+    justify-content: space-evenly;
+    width: 650px;
+    margin-top: 20px;
+    border: 1px solid #162e16;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+h1{
+
+border: 1 px solid gray;
+display: inline;
+margin-left: 100px;
+}
+.boxpara p{
+    display: inline;
+   padding: 25px;
+  
+}
+.boxpara p a{
+    color: aqua;
+    margin-left: 100px;
+}
+h5{
+    background-color:rgb(46, 73, 109);
+    text-align: center;
+    width: 250px;
+    height: 32px;
+padding-top: 10px;
+color: white;
+font-size: 20px;
+}
+.footer{
+    background: rgb(46, 73, 109);
+    width: 600px;
+    color: white;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer a{
+    color: white;
+}
